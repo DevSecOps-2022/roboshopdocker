@@ -1,0 +1,26 @@
+hanumanthn@Hanumanths-MacBook-Air roboshopdocker % du -sh frontend/static 
+1.2M	frontend/static
+hanumanthn@Hanumanths-MacBook-Air roboshopdocker % du -sh frontend/static/
+1.2M	frontend/static/
+hanumanthn@Hanumanths-MacBook-Air roboshopdocker % grep -R "ghp_" frontend/static
+hanumanthn@Hanumanths-MacBook-Air roboshopdocker % grep -R "tocken" frontend/static 
+hanumanthn@Hanumanths-MacBook-Air roboshopdocker % grep -R "password" frontend/static
+frontend/static/js/controller.js:        $scope.data.password = '';
+frontend/static/js/controller.js:        $scope.data.password2 = '';
+frontend/static/js/controller.js:                    password: $scope.data.password
+frontend/static/js/controller.js:                $scope.data.user.password = '';
+frontend/static/js/controller.js:                $scope.data.password = $scope.data.password2 = '';
+frontend/static/js/controller.js:                $scope.data.password = '';
+frontend/static/js/controller.js:            $scope.data.password = $scope.data.password.trim();
+frontend/static/js/controller.js:            $scope.data.password2 = $scope.data.password2.trim();
+frontend/static/js/controller.js:            if($scope.data.name && $scope.data.email && $scope.data.password && $scope.data.password2) {
+frontend/static/js/controller.js:                if($scope.data.password !== $scope.data.password2) {
+frontend/static/js/controller.js:                    $scope.data.password = $scope.data.password2 = '';
+frontend/static/js/controller.js:                    password: $scope.data.password
+frontend/static/js/controller.js:                $scope.data.password = $scope.data.password2 = '';
+frontend/static/js/controller.js:                $scope.data.password = $scope.data.password2 = '';
+frontend/static/login.html:                <td><input type="password" size="20" ng-model="data.password"/></td>
+frontend/static/login.html:                <td><input type="password" size="20" ng-model="data.password"/></td>
+frontend/static/login.html:                <td><input type="password" size="20" ng-model="data.password2"/></td>
+hanumanthn@Hanumanths-MacBook-Air roboshopdocker % grep -R "apikey" frontend/static
+hanumanthn@Hanumanths-MacBook-Air roboshopdocker % 
