@@ -1,26 +1,15 @@
-hanumanthn@Hanumanths-MacBook-Air roboshopdocker % du -sh frontend/static 
-1.2M	frontend/static
-hanumanthn@Hanumanths-MacBook-Air roboshopdocker % du -sh frontend/static/
-1.2M	frontend/static/
-hanumanthn@Hanumanths-MacBook-Air roboshopdocker % grep -R "ghp_" frontend/static
-hanumanthn@Hanumanths-MacBook-Air roboshopdocker % grep -R "tocken" frontend/static 
-hanumanthn@Hanumanths-MacBook-Air roboshopdocker % grep -R "password" frontend/static
-frontend/static/js/controller.js:        $scope.data.password = '';
-frontend/static/js/controller.js:        $scope.data.password2 = '';
-frontend/static/js/controller.js:                    password: $scope.data.password
-frontend/static/js/controller.js:                $scope.data.user.password = '';
-frontend/static/js/controller.js:                $scope.data.password = $scope.data.password2 = '';
-frontend/static/js/controller.js:                $scope.data.password = '';
-frontend/static/js/controller.js:            $scope.data.password = $scope.data.password.trim();
-frontend/static/js/controller.js:            $scope.data.password2 = $scope.data.password2.trim();
-frontend/static/js/controller.js:            if($scope.data.name && $scope.data.email && $scope.data.password && $scope.data.password2) {
-frontend/static/js/controller.js:                if($scope.data.password !== $scope.data.password2) {
-frontend/static/js/controller.js:                    $scope.data.password = $scope.data.password2 = '';
-frontend/static/js/controller.js:                    password: $scope.data.password
-frontend/static/js/controller.js:                $scope.data.password = $scope.data.password2 = '';
-frontend/static/js/controller.js:                $scope.data.password = $scope.data.password2 = '';
-frontend/static/login.html:                <td><input type="password" size="20" ng-model="data.password"/></td>
-frontend/static/login.html:                <td><input type="password" size="20" ng-model="data.password"/></td>
-frontend/static/login.html:                <td><input type="password" size="20" ng-model="data.password2"/></td>
-hanumanthn@Hanumanths-MacBook-Air roboshopdocker % grep -R "apikey" frontend/static
+hanumanthn@Hanumanths-MacBook-Air roboshopdocker % file frontend/static/images/*
+frontend/static/images/Aplha.png:       PNG image data, 300 x 300, 8-bit/color RGBA, non-interlaced
+frontend/static/images/CNA.png:         PNG image data, 300 x 300, 8-bit/color RGBA, non-interlaced
+frontend/static/images/EMM.png:         PNG image data, 300 x 300, 8-bit/color RGBA, non-interlaced
+frontend/static/images/EPE.png:         PNG image data, 300 x 300, 8-bit/color RGBA, non-interlaced
+frontend/static/images/Ewooid.png:      PNG image data, 300 x 300, 8-bit/color RGBA, non-interlaced
+frontend/static/images/HPTD.png:        PNG image data, 300 x 300, 8-bit/color RGBA, non-interlaced
+frontend/static/images/placeholder.png: PNG image data, 300 x 300, 8-bit/color RGB, non-interlaced
+frontend/static/images/RED.png:         PNG image data, 300 x 300, 8-bit/color RGBA, non-interlaced
+frontend/static/images/RMC.png:         PNG image data, 300 x 300, 8-bit/color RGBA, non-interlaced
+frontend/static/images/SHCE.png:        PNG image data, 300 x 300, 8-bit/color RGBA, non-interlaced
+frontend/static/images/STAN-1.png:      PNG image data, 300 x 300, 8-bit/color RGBA, non-interlaced
+frontend/static/images/UHJ.png:         PNG image data, 300 x 300, 8-bit/color RGBA, non-interlaced
+frontend/static/images/Watson.png:      PNG image data, 300 x 300, 8-bit/color RGBA, non-interlaced
 hanumanthn@Hanumanths-MacBook-Air roboshopdocker % 
