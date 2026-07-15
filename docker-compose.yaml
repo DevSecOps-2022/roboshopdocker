@@ -27,7 +27,11 @@ services:
     depends_on:
     - catalogue
     - redis
-
+  mysql:
+    build: ./mysql
+    image: mysql:v1
+    container_name: mysql
+    
   redis:
     build: ./redis
     image: redis:v1
