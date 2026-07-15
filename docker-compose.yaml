@@ -31,11 +31,16 @@ services:
     build: ./mysql
     image: mysql:v1
     container_name: mysql
-    
+
   redis:
     build: ./redis
     image: redis:v1
     container_name: redis
+
+  shipping:
+    build: ./shipping
+    image: shipping:v1
+    container_name: shipping
   
   frontend:
     build: ./frontend
