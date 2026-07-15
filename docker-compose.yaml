@@ -6,7 +6,7 @@ services:
     container_name: mongodb
   catalogue:
     build: ./catalogue
-    iamhge: catalogue:v1
+    image: catalogue:v1
     conatainer_name: catalogue
     depends -on:
     - mongodb
