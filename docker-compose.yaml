@@ -7,7 +7,7 @@ services:
   catalogue:
     build: ./catalogue
     image: catalogue:v1
-    conatainer_name: catalogue
+    container_name: catalogue
     depends_on:
     - mongodb
   frontend:
