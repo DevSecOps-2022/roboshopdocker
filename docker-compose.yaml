@@ -14,7 +14,7 @@ services:
   
   user:
     build: ./user
-    image: user/v1
+    image: user:v1
     container_name: user
     depends_on:
     - redis
@@ -22,6 +22,7 @@ services:
   
   redis:
     build: ./redis
+    image: redis:v1
     container_name: redis
   
   frontend:
