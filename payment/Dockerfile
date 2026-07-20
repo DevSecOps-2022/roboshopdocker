@@ -1,5 +1,5 @@
-FROM python=3
-RUN mkdir /app
+FROM python:3
+RUN mkdir -p /app
 WORKDIR /app
 RUN pip install -r requirement.txt
 ENV CART_HOST=cart
