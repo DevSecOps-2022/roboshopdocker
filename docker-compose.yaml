@@ -42,8 +42,8 @@ services:
     image: shipping:v1
     container_name: shipping
   
-  rabbitmq:
-    build: ./rabbitmq
+  Rabbitmq:
+    build: ./Rabbitmq
     image: rabbitmq:v1
     container_name: rabbitmq
   
