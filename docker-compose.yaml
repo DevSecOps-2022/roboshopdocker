@@ -42,6 +42,18 @@ services:
     image: shipping:v1
     container_name: shipping
   
+  rabbitmq:
+    build: ./rabbitmq
+    image: rabbitmq:v1
+    container_name: rabbitmq
+  
+  payment:
+    build: ./payment
+    image: paymnet
+    container_name: payment
+    depends_on:
+    - rabbotmq
+  
   frontend:
     build: ./frontend
     image: frontend:v1
