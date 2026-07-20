@@ -52,7 +52,7 @@ services:
     image: payment:v1
     container_name: payment
     depends_on:
-    - rabbitmq
+    - Rabbitmq
   
   frontend:
     build: ./frontend
