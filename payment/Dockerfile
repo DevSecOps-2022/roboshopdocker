@@ -1,6 +1,7 @@
 FROM python:3
 RUN mkdir -p /app
 WORKDIR /app
+COPY requirements.txt .
 RUN pip install -r requirements.txt
 ENV CART_HOST=cart
 ENV CART_PORT=8080
