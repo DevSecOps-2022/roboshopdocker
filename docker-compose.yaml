@@ -52,7 +52,7 @@ services:
     image: paymnet
     container_name: payment
     depends_on:
-    - rabbotmq
+    - rabbitmq
   
   frontend:
     build: ./frontend
